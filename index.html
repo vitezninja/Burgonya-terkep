@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgonya térkép</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="upper-container">
+            <div class="left-child">
+                <h1 id="main-title">Burgonya térkép</h1>
+            </div>
+            <div class="right-child">
+                <table id="point-display-table">
+                    <tr>
+                        <td class="point-display" id="spring-point-display">Tavasz:<br>0 pont</td>
+                        <td class="point-display" id="summer-point-display">Nyár:<br>0 pont</td>
+                        <td class="point-display" id="fall-point-display">Ősz:<br>0 pont</td>
+                        <td class="point-display" id="winter-point-display">Tél:<br>0 pont</td>
+                    </tr>
+                </table>
+                <p id="point-display-text">Összesen: 0 pont</p>
+            </div>
+        </div>
+        <div id="lower-container">
+            <div class="left-child">
+                <h2 id="game-over-message"></h2>
+                <button id="new-game-button">Új játék inditása</button>
+                <table id="game-table"></table>
+                <p id="help">A táblára úgy lehet letenni az elemet, hogy ahova kattintunk az a lehelyezendő elem közepe lesz.</p>
+            </div>
+            <div class="right-child">
+                <h2 id="current-season">Jelenlegi évszak: Tavasz (AB)</h2>
+                <hr>
+                <div id="missions-container">
+                    <table id="missions-container-table"></table>
+                </div>
+                <h2 id="current-time">Évszakból hátralávő idő: 0/7</h2>
+                <hr>
+                <div id="current-piece-container">
+                    <div id="current-piece-left">
+                        <h2 id="current-piece-text">Lehelyezendő elem:</h2>
+                        <button id="end-game" class="current-piece-buttons">Játék befejezés</button>
+                        <br>
+                        <button id="rotate" class="current-piece-buttons">Forgatás</button>
+                        <br>
+                        <button id="mirror" class="current-piece-buttons">Tükrözés</button>
+                    </div>
+                    <div id="current-piece-right">
+                        <div>
+                            <p id="current-piece-time">0</p>
+                            <img src="assets/timer.png" alt="timer icon" class="timer-icon">
+                        </div>
+                        <table id="current-piece-table"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

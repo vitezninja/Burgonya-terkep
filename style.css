@@ -1,0 +1,150 @@
+body{
+    background-color: lightgray;
+}
+hr{
+    border-color: black;
+}
+#upper-container{
+    text-align: center;
+}
+#lower-container{
+    text-align: center;
+}
+.left-child{
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+.right-child{
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+#point-display-table{
+    margin: 0 auto;
+}
+#point-display-text{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.point-display{
+    color: white;
+    border: brown 1px solid;
+    border-radius: 10px;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(197, 142, 142);
+}
+#current-piece-left{
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+#current-piece-right{
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+#current-season{
+    margin-top: 0;
+    text-align: left;
+}
+#current-time{
+    margin-top: 0;
+    text-align: left;
+}
+#main-title{
+    text-align: center;
+}
+#current-piece-text{
+    text-align: left;
+}
+.small-img{
+    width: 100%;
+}
+#missions-container-table{
+    margin: 0 auto;
+}
+.missions-container-table-child{
+    color: black;
+}
+#game-table{
+    margin: 0 auto;
+    background-color: white;
+}
+#current-piece-table{
+    border-radius: 15px;
+    border: grey 3px solid;
+    padding: 1rem;
+    background-color: white;
+}
+#spring-point-display{
+    background-color: rgb(105, 190, 108);
+    border-radius: 12px;
+    border-color: rgb(59, 142, 62);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-width: 5px;
+    font-size: large;
+}
+#summer-point-display{
+    background-color: rgb(254, 232, 116);
+    border-radius: 12px;
+    border-color: rgb(221,187,8);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-width: 5px;
+    font-size: large;
+}
+#fall-point-display{
+    background-color: rgb(234,189,148);
+    border-radius: 12px;
+    border-color: rgb(108,63,20);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-width: 5px;
+    font-size: large;
+}
+#winter-point-display{
+    background-color: rgb(89,210,236);
+    border-radius: 12px;
+    border-color: rgb(49,144,165);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-width: 5px;
+    font-size: large;
+}
+.tableimg{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.timer-icon{
+    width: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.current-piece-buttons{
+    width: 10rem;
+    margin: 0.1rem;
+    border-radius: 12px;
+}
+#current-piece-time{
+    display: inline-block;
+    vertical-align: middle;
+}
+#new-game-button{
+    width: 20rem;
+    height: 5rem;
+    margin: 0.1rem;
+    border-radius: 12px;
+}
+#help{
+    text-align: center;
+    font-size: larger;
+    margin: 4.5rem;
+    margin-bottom: 0;
+}
